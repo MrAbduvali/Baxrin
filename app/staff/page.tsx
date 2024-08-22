@@ -1,14 +1,19 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Staff() {
   return (
     <div className="mt-[50px] flex flex-col gap-y-[20px]">
       <div className="flex flex-col justify-center">
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
           <div className="w-full md:w-1/3 bg-white grid place-items-center">
-            <img
+            {/* <img
               src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
               alt="tailwind logo"
+              className="rounded-xl"
+            /> */}
+            <Image
+              src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
+              alt="logo"
               className="rounded-xl"
             />
           </div>
@@ -35,9 +40,9 @@ export default function Staff() {
       <div className="flex flex-col justify-center">
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
           <div className="w-full md:w-1/3 bg-white grid place-items-center">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
-              alt="tailwind logo"
+              alt="logo"
               className="rounded-xl"
             />
           </div>
@@ -64,9 +69,9 @@ export default function Staff() {
       <div className="flex flex-col justify-center">
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
           <div className="w-full md:w-1/3 bg-white grid place-items-center">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
-              alt="tailwind logo"
+              alt="logo"
               className="rounded-xl"
             />
           </div>
@@ -93,9 +98,9 @@ export default function Staff() {
       <div className="flex flex-col justify-center">
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
           <div className="w-full md:w-1/3 bg-white grid place-items-center">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
-              alt="tailwind logo"
+              alt="logo"
               className="rounded-xl"
             />
           </div>
@@ -122,9 +127,9 @@ export default function Staff() {
       <div className="flex flex-col justify-center">
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
           <div className="w-full md:w-1/3 bg-white grid place-items-center">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1508528075895-be7a6cabd37a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdW50YWluJTIwd2F0ZXJmYWxsfGVufDB8fDB8fHww"
-              alt="tailwind logo"
+              alt="logo"
               className="rounded-xl"
             />
           </div>

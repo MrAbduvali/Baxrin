@@ -2,13 +2,16 @@ import { MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font shadow mt-[50px]">
       <div className="container-headnav px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <Link href={"/"} className="flex items-center gap-x-[10px]">
-          <img src="/img/gerb.svg" alt="" className="w-[50px]" />
+          {/* <img src="/img/gerb.svg" alt="" className="w-[50px]" /> */}
+          <Image src="/img/gerb.svg" alt="" className="w-[50px]" />
+
           <span className="text-[18px] text-stone-800 font-semibold">
             Baxrin MFY
           </span>

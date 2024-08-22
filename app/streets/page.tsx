@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Streets() {
   return (
     <div>
@@ -8,10 +8,15 @@ export default function Streets() {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 max-w-md md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                {/* <img
                   className="h-48 w-full object-cover object-center"
                   src="https://dummyimage.com/720x400"
                   alt="blog"
+                /> */}
+                <Image
+                  src="https://dummyimage.com/720x400"
+                  alt="blog"
+                  className="h-48 w-full object-cover object-center"
                 />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -75,10 +80,10 @@ export default function Streets() {
             </div>
             <div className="p-4 max-w-md md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
-                  className="h-48 w-full object-cover object-center"
+              <Image
                   src="https://dummyimage.com/720x400"
                   alt="blog"
+                  className="h-48 w-full object-cover object-center"
                 />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -142,10 +147,10 @@ export default function Streets() {
             </div>
             <div className="p-4 max-w-md md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
-                  className="h-48 w-full object-cover object-center"
+              <Image
                   src="https://dummyimage.com/720x400"
                   alt="blog"
+                  className="h-48 w-full object-cover object-center"
                 />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">

@@ -1,6 +1,7 @@
 import { MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,26 +10,27 @@ export default function Footer() {
         <div className="flex cmd:flex-col justify-between items-center gap-y-[50px]">
           <div className="px-[50px] py-[30px] c2xl:px-[20px] c2xl:py-[20px] cd:w-[80vw] shadow rounded-[30px] flex flex-col gap-y-[30px] c2xl:gap-y-[20px] h-auto">
             <div className="flex items-center gap-x-[10px]">
-              <img src="/img/gerb.svg" alt="" className="w-[50px]" />
+              {/* <img src="/img/gerb.svg" alt="" className="w-[50px]" /> */}
+              <Image src="/img/gerb.svg" alt="" className="w-[50px]" />
               <span className="text-[18px] font-semibold">Baxrin MFY</span>
             </div>
             <div className="flex flex-col gap-y-[20px]">
               <div className="flex items-center gap-x-[25px]">
                 <MdLocationOn className="text-stone-800 text-[28px] c2xl:text-[23px]" />
                 <p className="text-stone-800 uppercase w-[485px] c3xl:w-[400px] cmd:w-[70vw] csm:w-[55vw] cxl:w-[300px] text-[17px] c3xl:text-[16px] c2xl:text-[14px] ">
-                  120100, Guliston shahar, Islom Karimov ko'chasi 60 uy.
+                  120100, Guliston shahar, Islom Karimov ko‘chasi 60 uy.
                 </p>
               </div>
               <div className="flex items-center gap-x-[25px]">
                 <FaPhoneAlt className="text-stone-800 text-[25px] c2xl:text-[20px]" />
                 <p className="text-stone-800 uppercase w-[485px] c3xl:w-[400px] cmd:w-[70vw] csm:w-[55vw] cxl:w-[300px] text-[17px] c3xl:text-[16px] c2xl:text-[14px] ">
-                  120100, Guliston shahar, Islom Karimov ko'chasi 60 uy.
+                  120100, Guliston shahar, Islom Karimov ko‘chasi 60 uy.
                 </p>
               </div>
               <div className="flex items-center gap-x-[25px]">
                 <MdAccessTimeFilled className="text-stone-800 text-[25px] c2xl:text-[20px]" />
                 <p className="text-stone-800 uppercase w-[485px] c3xl:w-[400px] cmd:w-[70vw] csm:w-[55vw] cxl:w-[300px] text-[17px] c3xl:text-[16px] c2xl:text-[14px] ">
-                  120100, Guliston shahar, Islom Karimov ko'chasi 60 uy.
+                  120100, Guliston shahar, Islom Karimov ko‘chasi 60 uy.
                 </p>
               </div>
             </div>

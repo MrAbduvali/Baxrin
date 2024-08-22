@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from 'next/image'
 export default function UsefulLinkns() {
   return (
     <section className="text-gray-600 body-font">
@@ -12,10 +12,15 @@ export default function UsefulLinkns() {
         <div className="flex flex-wrap -m-2">
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+              {/* <img
                 alt="team"
                 className="w-[50px] h-auto mr-4"
                 src="/img/img1.png"
+              /> */}
+              <Image
+                src="/img/img1.png"
+                alt="team"
+                className="w-[50px] h-auto mr-4"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
@@ -26,24 +31,24 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img2.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img2.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
-                  O'zbekiston Respublikasi Tashqi ishlar Vazirligi
+                  O‘zbekiston Respublikasi Tashqi ishlar Vazirligi
                 </p>
               </div>
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img3.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img3.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
@@ -54,10 +59,10 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img4.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img4.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
@@ -68,10 +73,10 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img5.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img5.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
@@ -82,10 +87,10 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img6.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img6.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
@@ -96,24 +101,24 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img6.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img6.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">
-                  O'zbekiston Respublikasi Hukumat portali
+                  O‘zbekiston Respublikasi Hukumat portali
                 </p>
               </div>
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img8.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img8.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">Jamoaviy murojaatlar Portali</p>
@@ -122,10 +127,10 @@ export default function UsefulLinkns() {
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-              <img
+            <Image
+                src="/img/img9.png"
                 alt="team"
                 className="w-[50px] h-auto mr-4"
-                src="/img/img9.png"
               />
               <div className="flex-grow">
                 <p className="text-gray-500">Milliy huquqiy internet portali</p>

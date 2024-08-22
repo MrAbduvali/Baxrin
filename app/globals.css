@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .container-headnav {
-    width: min(1440px, 100% - 2rem);
-    margin: 0 auto;
-  }
+  width: min(1440px, 100% - 2rem);
+  margin: 0 auto;
+}
 
 body a {
-    text-decoration: none;
+  text-decoration: none;
 }

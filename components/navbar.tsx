@@ -5,6 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isClick, setIsClick] = useState(false);
@@ -12,7 +13,9 @@ export default function Navbar() {
     <header className="text-gray-600 shadow">
       <div className="container-headnav flex justify-between items-center p-[20px] cmd:flex-col csm:flex-row gap-y-[20px]">
         <Link href={"/"} className="flex items-center gap-x-[10px]">
-          <img src="/img/gerb.svg" alt="" className="w-[50px]" />
+          {/* <img src="/img/gerb.svg" alt="" className="w-[50px]" /> */}
+          <Image src="/img/gerb.svg" alt="" className="w-[50px]" />
+
           <span className="text-[18px] text-stone-800 font-semibold">
             Baxrin MFY
           </span>
@@ -65,9 +68,13 @@ export default function Navbar() {
           onClick={() => setIsClick(!isClick)}
         >
           {isClick ? (
-            <img src="/img/burger1.png" alt="menu" className="w-[35px]" />
+            // <img src="/img/burger1.png" alt="menu" className="w-[35px]" />
+            <Image src="/img/burger1.png" alt="menu" className="w-[35px]" />
+
           ) : (
-            <img src="/img/burger1.png" alt="menu" className="w-[30px]" />
+            // <img src="/img/burger1.png" alt="menu" className="w-[30px]" />
+            <Image src="/img/burger1.png" alt="menu" className="w-[30px]" />
+
           )}
         </button> 
       </div>

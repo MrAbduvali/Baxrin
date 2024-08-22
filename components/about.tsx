@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <>
@@ -15,10 +17,15 @@ export default function About() {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+            {/* <img
               className="object-cover object-center rounded"
               alt="hero"
               src="https://dummyimage.com/720x600"
+            /> */}
+            <Image
+              src="https://dummyimage.com/720x600"
+              alt="hero"
+              className="object-cover object-center rounded"
             />
           </div>
         </div>
